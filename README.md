@@ -10,14 +10,13 @@ R/
 Implementation of NCST likelihood evaluation, simulation experiments,
 and distribution fitting. This folder includes the following files:
 
-00_ncst_core_functions.R — core functions
-01_2D_ncst_example.R — 2D example used in Section 2
-02_Quadratic_Form_Validation.R — reproduces Section 4.1
-03_Skewness_and_Tail_Behavior.R — reproduces Section 4.2
-04_Effect_of_Degrees_of_Freedom.R — reproduces Section 4.3
-05_Comparison_Misspecified_Models.R — reproduces Section 4.4 
-06_3D_ncst_example.R - 3D example included in Appendix B
-07_Read_Data.R — reproduces real-data results
+- 00_ncst_core_functions.R — core functions
+- 01_2D_ncst_example.R — 2D example used in Section 2
+- 02_Quadratic_Form_Validation.R — reproduces Section 4.1
+- 03_Skewness_and_Tail_Behavior.R — reproduces Section 4.2
+- 04_Effect_of_Degrees_of_Freedom.R — reproduces Section 4.3
+- 05_Comparison_Misspecified_Models.R — reproduces Section 4.4 
+- 06_Read_Data.R — reproduces real-data results
 
 data/  
 Instructions for obtaining the dataset used in the empirical example.
