@@ -1,4 +1,4 @@
-pacman::p_load(Cairo, gridExtra, MASS, metR, processx, sn, tidyverse)
+pacman::p_load(gridExtra, MASS, metR, processx, sn, tidyverse)
 
 ## Figure 1: Marginal Density
 # Set parameters
@@ -42,7 +42,7 @@ p2 <- ggplot(df_T, aes(x = Z2)) +
 
 m_plot <- grid.arrange(p1, p2, ncol = 2)
 
-ggsave("figures/Figure1.pdf", plot = m_plot, width = 7.5, height = 3.5, units = "in")
+ggsave("../figures/Figure1.pdf", plot = m_plot, width = 7.5, height = 3.5, units = "in")
 
 ## Figure 2: Contour and 3D surface plots
 # ---- KDE bandwidths ----
@@ -102,7 +102,7 @@ p3 <- ggplot(df_dens, aes(x = x, y = y, z = z_norm)) +
 p3
 
 
-ggsave("figures/Figure2_Contour.pdf", plot = p3, width = 4, height = 3, units = "in")
+ggsave("../figures/Figure2_Contour.pdf", plot = p3, width = 4, height = 3, units = "in")
 
 
 library(plotly)
