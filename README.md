@@ -2,16 +2,13 @@
 
 This repository contains the R code used to reproduce the results in
 
-Hasan, A. & Chen, Y. J. (2026), *Flexible Modeling of Multivariate Skewed and Heavy-Tailed Data via a Non-Central Skew $t$ Distribution with Application to Tumor Shape Data*.
+Hasan, A. & Chen, Y. J. (2026), *Flexible Modeling of Multivariate Skewed and Heavy-Tailed Data via a Non-Central Skew t Distribution with Application to Tumor Shape Data*.
 
 ## Repository structure
 
 R/  
 Implementation of NCST likelihood evaluation, simulation experiments,
 and distribution fitting.
-
-walkthrough/  
-An R Markdown walkthrough demonstrating how to reproduce a key result.
 
 data/  
 Instructions for obtaining the dataset used in the empirical example.
